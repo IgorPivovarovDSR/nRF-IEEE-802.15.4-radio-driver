@@ -263,6 +263,8 @@ nrf_802154_state_t nrf_802154_state_get(void);
  */
 bool nrf_802154_sleep(void);
 
+nrf_802154_sleep_error_t nrf_802154_sleep_if_idle(void);
+
 /**
  * @brief Change radio state to receive.
  *
